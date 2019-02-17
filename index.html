@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>S型布局</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/d3.v3.min.js"></script>
+	</head>
+	<body>
+		<div class="left">
+			<div class="left_top">
+				<span class="left_top_data">
+					<span class="today">
+						Today
+					</span>
+					<span class="span_time" id="time"></span>
+				</span>
+				<span class="left_top_download">
+					阶段报告
+					<img src="img/download.png"/>
+				</span>
+				<span class="left_top_title">
+					阶段报告
+				</span>
+				<div class="clear"></div>
+			</div>
+			<div class="left_middle">
+				<svg id="left_middle_svg">
+					
+				</svg>
+			</div>
+			<div class="left_bottom">
+				<svg class="svg" id="left_bottom_svg"></svg>
+			</div>
+		</div>
+		<div class="right">
+			<div class="right_top">
+				<span class="right_top_nav">
+					<span class="right_top_textone">
+						欢迎您
+					</span>
+					<span class="right_top_texttwo">
+						李磊，
+					</span>
+					<span class="right_top_texttwo">
+						退出
+					</span>
+					<img src="img/exit.png"/>
+				</span>
+				<div class="clear"></div>
+			</div>
+			<div class="right_middle">
+				<div class="right_middle_head">
+					<img src="img/TX.png"/>
+				</div>
+				<div class="right_middle_name">
+					李磊
+				</div>
+				<div class="right_middle_major">
+					训练中心，电子专业
+				</div>
+			</div>
+			<div class="right_bottom">
+				<div class="right_bottom_book">
+					维修手册
+					<img src="img/book.png"/>
+				</div>
+				<div class="right_bottom_play">
+					全景视频
+					<img src="img/play.png"/>
+				</div>
+				<div class="right_bottom_detail">
+					<span class="right_bottom_detail_title">
+						动态信息
+					</span>
+					<span class="right_bottom_detail_centent">
+						<ul>
+							<li>新增发动机课程，请各位同学尽快参与学习</li>
+							<li>新增发动机课程，请各位同学尽快参与学习</li>
+							<li>新增发动机课程，请各位同学尽快参与学习</li>
+						</ul>
+					</span>
+					<span class="right_bottom_detail_time"></span>
+				</div>
+			</div>
+			<div class="right_table">
+				<span class="right_table_title">
+					课程表
+				</span>
+				<span class="right_table_centent">
+					<table cellspacing="0" cellpadding="0">
+						<tr>
+							<th></th>
+							<th>上午</th>
+							<th>下午</th>
+						</tr>
+						<tr>
+							<td>星期一</td>
+							<td>T1 502</td>
+							<td>T1 502</td>
+						</tr>
+						<tr>
+							<td>星期二</td>
+							<td>T1 502</td>
+							<td>T1 502</td>
+						</tr>
+						<tr>
+							<td>星期三</td>
+							<td>T1 502</td>
+							<td>T1 502</td>
+						</tr>
+						<tr>
+							<td>星期四</td>
+							<td>T1 502</td>
+							<td>T1 502</td>
+						</tr>
+						<tr>
+							<td>星期五</td>
+							<td>T1 502</td>
+							<td>T1 502</td>
+						</tr>
+						<tr>
+							<td>星期六</td>
+							<td>T1 502</td>
+							<td>T1 502</td>
+						</tr>
+						<tr>
+							<td>星期日</td>
+							<td>T1 502</td>
+							<td>T1 502</td>
+						</tr>
+					</table>
+				</span>
+			</div>
+			<div class="right_foot">
+				<span class="right_foot_download">
+					<img src="img/download.png"/>
+					资料下载
+				</span>
+				<span class="right_foot_search">
+					<img src="img/search.png"/>
+					成绩查询
+				</span>
+				<span class="right_foot_test">
+					<img src="img/test.png"/>
+					问题提交
+				</span>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</body>
+<!--	底部svg计算xy坐标以及S型布局js-->
+	<script src="js/Slayout.js"></script>
+<!--	底部svg计算画线数据js-->
+	<script src="js/drawPath.js"></script>
+<!--	画块画线，以及缩放事件等等综合js-->
+	<script src="js/index.js"></script>
+</html>

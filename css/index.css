@@ -1,0 +1,244 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+h1,h2,h3,h4,h5,h6,em,i {
+    font-weight: 100;
+    font-style: normal
+}
+ul,ol,li {
+    list-style-type: none
+}
+a {
+    color: #666;
+    text-decoration: none;
+    outline: 0
+}
+a:hover {
+    text-decoration: none
+}
+.clear{clear: both;}
+body{
+	width: 100%;
+	height: 100%;
+	min-width: 1000px;
+	min-height: 850px;
+	overflow: hidden;
+}
+.left{
+	width: 70%;
+	height: 100%;
+	float: left;
+	background-color: #212936;
+}
+.right{
+	width: 30%;
+	height: 100%;
+	background-color: #242D3C;
+	float: right;
+	padding: 10px 0 20px 0;
+}
+.left_top{
+	width: 100%;
+	background-color: #212936;
+	padding: 20px 0 20px 0;
+}
+.left_top_data{
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	color: #fff;
+	width: 180px;
+	line-height: 30px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	margin-left: 20px;
+}
+.left_top_data span{
+	display: inline-block;
+}
+.today{
+	color:#93979A;
+	margin-left: 10px;
+}
+.span_time{
+	margin-left: 20px;
+}
+.left_top_download{
+	float: right;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: #fff;
+	width: 150px;
+	line-height: 30px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.left_top_download img{
+	width: 20px;
+	vertical-align: middle;
+}
+.left_top_title{
+	float: right;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: #54D1FA;
+	width: 150px;
+	line-height: 30px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.left_middle{
+	width: 100%;
+}
+.left_bottom{
+	width: 100%;
+	border-top: 1px solid #fff;
+}
+.right_top{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.right_top_nav{
+	float: right;
+	width: 170px;
+	text-align: right;
+	color: #fff;
+	line-height: 25px;
+	font-size: 14px;
+}
+.right_top_texttwo{
+	cursor: pointer;
+}
+.right_top_texttwo:hover{
+	color: #52D0FB;
+}
+.right_top_nav img{
+	width: 16px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.right_middle{
+	text-align: center;
+}
+.right_middle_head{
+	margin-top: 15px;
+}
+.right_middle_head img{
+	width: 50px;
+	height: 50px;
+}
+.right_middle_name{
+	font-size: 25px;
+	color: #FFFDFE;
+	margin-top: 10px;
+}
+.right_middle_major{
+	font-size: 15px;
+	color: #96979B;
+	margin-top: 5px;
+}
+.right_bottom{
+	margin-top: 20px;
+}
+.right_bottom_book, .right_bottom_play, .right_bottom_detail{
+	color: #FEFFFF;
+	border-bottom: 1px solid #4C545F;
+	font-size: 17px;
+	padding-bottom: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.right_bottom_book:hover, .right_bottom_play:hover{
+	color: #52D0FB;
+}
+.right_bottom img{
+	width: 25px;
+	vertical-align: middle;
+}
+.right_bottom_detail_title{
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+.right_bottom_detail_centent{
+	font-size: 14px;
+}
+.right_bottom_detail_time{
+	text-align: right;
+	font-size: 13px;
+}
+.right_bottom_detail span{
+	display: block;
+}
+.right_table{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.right_table_title{
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	margin: 10px 0;
+}
+.right_table_centent table{
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	color: #fff;
+}
+.right_table_centent table th, .right_table_centent table td{
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff;
+	text-align: center;
+	width: 150px;
+	line-height: 25px;
+	font-size: 15px;
+}
+.right_foot{
+	line-height: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.right_foot span{
+	display: inline-block;
+	width: 100px;
+	color: #fff;
+	font-size: 15px;
+	cursor: pointer;
+	margin-left: 15px;
+}
+.right_foot span:hover{
+	color: #52D0FB;
+}
+.right_foot img{
+	width: 20px;
+	vertical-align: middle;
+}
+.arc{
+	cursor: pointer;
+}
+.rectG{
+	fill: none;
+	stroke: #52D0FB;
+}
+#finish rect{
+	width: 80;
+	height: 80;
+}
